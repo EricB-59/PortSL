@@ -9,8 +9,11 @@
     "astro": "astro"
   },
   "dependencies": {
+    "@fontsource-variable/montserrat": "^5.2.6",
+    "@fontsource/arsenal": "^5.2.6",
+    "@fontsource/arsenal-sc": "^5.2.6",
     "@tailwindcss/vite": "^4.1.8",
-    "astro": "^5.8.2",
+    "astro": "^5.9.4",
     "tailwindcss": "^4.1.8"
   }
 }
