@@ -3,7 +3,7 @@ import "./src/styles/global.css";
 ---
 
 <!doctype html>
-<html lang="es">
+<html lang="es" class="scroll-smooth">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width" />
@@ -19,8 +19,13 @@ import "./src/styles/global.css";
 <style>
   html,
   body {
+    /* Reset styles */
     margin: 0;
-    width: 100%;
-    height: 100%;
+    padding: 0;
+    width: 100dvw;
+    height: 100dvw;
+
+    overflow-y: hidden; /* Hide vertical scrollbar */
+    overflow-x: hidden; /* Hide horizontal scrollbar */
   }
 </style>

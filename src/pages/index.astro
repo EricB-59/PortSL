@@ -6,7 +6,17 @@ import Layout from "../layouts/Layout.astro";
 ---
 
 <Layout>
-  <Hero />
-  <AboutUs />
-  <Proyects />
+  <div
+    class="h-screen w-screen snap-y snap-mandatory overflow-y-auto [&>section]:overflow-hidden"
+  >
+    <section class="h-screen snap-start">
+      <Hero />
+    </section>
+    <section class="h-screen snap-start">
+      <AboutUs />
+    </section>
+    <section class="h-screen snap-start">
+      <Proyects />
+    </section>
+  </div>
 </Layout>
