@@ -1,12 +1,36 @@
 ---
-
+import OpenMenuIcon from "@/assets/icons/open-menu.webp";
+import CloseMenuIcon from "@/assets/icons/close-menu.webp";
+import HeroImage from "@/assets/images/hero-image.webp";
 ---
 
-<section>
-  <nav></nav>
-  <article>
-    <h2></h2>
-    <h1>PORT<span>S. L.</span></h1>
-  </article>
-  <div></div>
-</section>
+<div class="grid grid-cols-1 grid-rows-2 h-screen">
+  <section class="">
+    <nav>
+      <!-- <img src="" alt="" /> Logo spot when I get it -->
+      <!-- Temporal logo for make the hero section -->
+      <h2>PORT S. L.</h2>
+      <div class="hidden">
+        <h2>Sobre notros</h2>
+        <h2>Proyectos</h2>
+      </div>
+      <div>
+        <img class="" src={OpenMenuIcon.src} alt="Open menu icon" />
+        <img class="hidden" src={CloseMenuIcon.src} alt="Open menu icon" />
+      </div>
+    </nav>
+    <article>
+      <h2>
+        Lorem Ipsum is simply dummy text of the printing and typesetting
+        industry. Lorem Ipsum has been the industry's standard dummy text ever
+        since the 1500s
+      </h2>
+      <h1>PORT<span>S. L.</span></h1>
+    </article>
+  </section>
+
+  <!-- Image Section -->
+  <section class="">
+    <img class="" src={HeroImage.src} alt="" />
+  </section>
+</div>
